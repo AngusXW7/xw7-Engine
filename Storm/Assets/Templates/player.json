@@ -1,0 +1,28 @@
+{
+	"Components": {
+		"TransformComponent": {
+			"Position": [ 0, 0, 0 ],
+			"Rotation": [ 0, 0, 0 ],
+			"Scale": [ 1, 1, 1 ]
+		},
+		"ColliderComponent": {
+			"Center": [ 0, 1, 0 ],
+			"Extend": [ 0.5, 2, 0.5 ]
+		},
+		"ModelComponent": {
+			"FileName": "../../Assets/Models/Young/Young.model",
+			"Rotation": [ 0, 180, 0 ]
+		},
+		"AnimatorComponent": {
+			"AnimSets": [
+				"../../Assets/Models/Young/Hip Hop Dancing.animSet",
+				"../../Assets/Models/Young/Silly Dancing.animSet"
+			]
+		},
+		"PlayerControllerComponent": {
+			"WalkSpeed": 2,
+			"RunSpeed": 5
+		}
+	}
+}
+
